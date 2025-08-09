@@ -1,0 +1,57 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('https://www.transparenttextures.com/patterns/wood-pattern.png'), #333;
+    background-size: cover;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: linear-gradient(#ccc, #999);
+    border: 3px solid #888;
+    border-radius: 15px;
+    padding: 30px 20px;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.tagline {
+    font-size: 0.95rem;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.links a {
+    display: block;
+    margin: 10px auto;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: #444;
+    border: 2px solid #aaa;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    max-width: 300px;
+}
+
+.links a:hover {
+    background-color: #888;
+    border-color: #fff;
+    color: #000;
+}
